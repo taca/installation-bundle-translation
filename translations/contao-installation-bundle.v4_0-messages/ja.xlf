@@ -13,12 +13,12 @@
       </trans-unit>
       <trans-unit id="3">
         <source>locked_headline</source>
-        <target>インストールツールはロックされています。</target>
+        <target>インストールツールはロックされています!</target>
         
       </trans-unit>
       <trans-unit id="4">
         <source>locked_explanation</source>
-        <target>連続して3回以上誤ったパスワードが入力された後、セキュリティ上の理由でインストールツールはロックされています。ロックを解除するには、サイトにローカルな構成ファイル(注: Contaoのディレクトリ以下のを編集して、&lt;code&gt;installCount&lt;/code&gt;を&lt;code&gt;0&lt;/code&gt;にします。</target>
+        <target>連続して3回以上誤ったパスワードが入力された後、セキュリティ上の理由でインストールツールはロックされています。ロックを解除するには、サイトにローカルな構成ファイルを編集して、&lt;code&gt;installCount&lt;/code&gt;を&lt;code&gt;0&lt;/code&gt;にします。</target>
         
       </trans-unit>
       <trans-unit id="5">
@@ -38,7 +38,7 @@
       </trans-unit>
       <trans-unit id="8">
         <source>accept_license</source>
-        <target>使用許諾の受け入れ</target>
+        <target>使用許諾の承認</target>
         
       </trans-unit>
       <trans-unit id="9">
