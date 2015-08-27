@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[contao-installation-bundle.v4_0-messages]
+file_filter = translations/contao-installation-bundle.v4_0-messages/<lang>.xlf
+source_lang = en
+type = XLIFF
+
