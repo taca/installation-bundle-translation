@@ -281,6 +281,10 @@
         <source>old_database_explanation</source>
         
       </trans-unit>
+      <trans-unit id="71">
+        <source>console_explanation</source>
+        
+      </trans-unit>
     </body>
   </file>
 </xliff>
