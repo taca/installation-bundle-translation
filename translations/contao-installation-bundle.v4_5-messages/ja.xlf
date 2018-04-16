@@ -406,16 +406,6 @@
         <target>構成したデータベースエンジン&lt;code&gt;%s&lt;/code&gt; をサーバーで利用できません。インストールする(ことをお勧めします)か、&lt;code&gt;app/config/config.yml&lt;/code&gt;ファイルに異なるデータベースエンジンを設定してください。</target>
         
       </trans-unit>
-      <trans-unit id="82">
-        <source>innodb_large_prefix</source>
-        <target>innodb_large_prefix optionが有効ではありません!</target>
-        
-      </trans-unit>
-      <trans-unit id="83">
-        <source>innodb_large_prefix_explain</source>
-        <target>&lt;code&gt;innodb_large_prefix&lt;/code&gt;オプションをサーバーで有効にしていません。インストールする(ことをお勧めします)か、&lt;code&gt;app/config/config.yml&lt;/code&gt;ファイルに異なる文字セットと照合順序を設定してください。</target>
-        
-      </trans-unit>
     </body>
   </file>
 </xliff>
