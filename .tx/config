@@ -16,3 +16,8 @@ file_filter = translations/contao-installation-bundle.v1_2-messages/<lang>.xlf
 source_lang = en
 type = XLIFF
 
+[contao-installation-bundle.v4_6-messages]
+file_filter = translations/contao-installation-bundle.v4_6-messages/<lang>.xlf
+source_lang = en
+type = XLIFF
+
