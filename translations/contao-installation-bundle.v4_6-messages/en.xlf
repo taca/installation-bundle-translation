@@ -325,6 +325,10 @@
         <source>unsupported_engine_explain</source>
         
       </trans-unit>
+      <trans-unit id="82">
+        <source>misconfigured_database_url_explain</source>
+        
+      </trans-unit>
     </body>
   </file>
 </xliff>
