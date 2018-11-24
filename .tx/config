@@ -6,18 +6,13 @@ file_filter = translations/contao-installation-bundle.v4_4-messages/<lang>.xlf
 source_lang = en
 type = XLIFF
 
-[contao-installation-bundle.v4_5-messages]
-file_filter = translations/contao-installation-bundle.v4_5-messages/<lang>.xlf
-source_lang = en
-type = XLIFF
-
-[contao-installation-bundle.v1_2-messages]
-file_filter = translations/contao-installation-bundle.v1_2-messages/<lang>.xlf
-source_lang = en
-type = XLIFF
-
 [contao-installation-bundle.v4_6-messages]
 file_filter = translations/contao-installation-bundle.v4_6-messages/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao-installation-bundle.v4_7-messages]
+file_filter = translations/contao-installation-bundle.v4_7-messages/<lang>.xlf
 source_lang = en
 type = XLIFF
 
