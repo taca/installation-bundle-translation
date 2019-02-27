@@ -18,7 +18,7 @@
       </trans-unit>
       <trans-unit id="4">
         <source>locked_explanation</source>
-        <target>セキュリティ上の理由により、連続して3回以上誤ったパスワードを入力した後のインストールツールはロックされています。ロックを解除するにはコマンド行で&lt;code&gt;vendor/bin/contao-console contao:install:unlock&lt;/code&gt;と実行してください。</target>
+        <target>セキュリティ上の理由により、連続して3回以上誤ったパスワードを入力した後のインストールツールはロックされています。Contao Manager、またはコマンド行で&lt;code&gt;contao:install:unlock&lt;/code&gt;を実行してロックを解除できます。</target>
         
       </trans-unit>
       <trans-unit id="5">
@@ -409,6 +409,36 @@
       <trans-unit id="82">
         <source>misconfigured_database_url_explain</source>
         <target>環境変数&lt;code&gt;DATABASE_URL&lt;/code&gt;による接続のURLを使用してデータベースに接続できませんでした。</target>
+        
+      </trans-unit>
+      <trans-unit id="83">
+        <source>engine_mismatch</source>
+        <target>構成したデータベースのエンジンはutf8mb4をサポートしていません!</target>
+        
+      </trans-unit>
+      <trans-unit id="84">
+        <source>engine_mismatch_explain</source>
+        <target>構成したデータベースエンジンの&lt;code&gt;%s&lt;/code&gt;はutf8mb4をサポートしていません。InnoDBを使用するか、&lt;code&gt;app/config/config.yml&lt;/code&gt;ファイルで違う文字セットと照合順序を設定してください。</target>
+        
+      </trans-unit>
+      <trans-unit id="85">
+        <source>innodb_large_prefix</source>
+        <target>innodb_large_prefix optionが有効ではありません!</target>
+        
+      </trans-unit>
+      <trans-unit id="86">
+        <source>innodb_large_prefix_explain</source>
+        <target>&lt;code&gt;innodb_large_prefix&lt;/code&gt;オプションをサーバーで有効にしていません。インストールする(ことをお勧めします)か、&lt;code&gt;app/config/config.yml&lt;/code&gt;ファイルに異なる文字セットと照合順序を設定してください。</target>
+        
+      </trans-unit>
+      <trans-unit id="87">
+        <source>innodb_additional</source>
+        <target>InnoDBが適切に構成されていません!</target>
+        
+      </trans-unit>
+      <trans-unit id="88">
+        <source>innodb_additional_explain</source>
+        <target>MySQLの5.77より前のバージョンとMariaDBの102.2より前のバージョンでlarge prefixを使用するにはBarracudaファイル形式と&lt;code&gt;innodb_file_per_table&lt;/code&gt;オプションが必要です。</target>
         
       </trans-unit>
     </body>
