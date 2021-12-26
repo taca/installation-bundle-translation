@@ -21,3 +21,7 @@ file_filter = translations/installation-bundle.v4_12-ContaoInstallationBundle/<l
 source_lang = en
 type = XLIFF
 
+[installation-bundle.v4_13-ContaoInstallationBundle]
+file_filter = translations/installation-bundle.v4_13-ContaoInstallationBundle/<lang>.xlf
+source_lang = en
+type = XLIFF
