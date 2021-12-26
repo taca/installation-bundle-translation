@@ -6,11 +6,6 @@ file_filter = translations/installation-bundle.v4_9-ContaoInstallationBundle/<la
 source_lang = en
 type = XLIFF
 
-[installation-bundle.v4_11-ContaoInstallationBundle]
-file_filter = translations/installation-bundle.v4_11-ContaoInstallationBundle/<lang>.xlf
-source_lang = en
-type = XLIFF
-
 [installation-bundle.v4_12-ContaoInstallationBundle]
 file_filter = translations/installation-bundle.v4_12-ContaoInstallationBundle/<lang>.xlf
 source_lang = en
