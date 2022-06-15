@@ -315,6 +315,7 @@
       </trans-unit>
       <trans-unit id="79" resname="unsupported_collation_explain">
         <source>The configured collation &lt;code&gt;%s&lt;/code&gt; is not available on your server. Please install it (recommended) or configure a different character set and collation in the &lt;code&gt;config/config.yaml&lt;/code&gt; file.</source>
+        <target>構成した照合順序&lt;code&gt;%s&lt;/code&gt;はサーバーで利用できません。インストールする(ことを推奨)か、&lt;code&gt;config/config.yaml&lt;/code&gt;ファイルで異なる文字セットと照合順序を構成してください。</target>
       </trans-unit>
       <trans-unit id="80" resname="unsupported_engine">
         <source>The configured database engine is not supported!</source>
@@ -322,6 +323,7 @@
       </trans-unit>
       <trans-unit id="81" resname="unsupported_engine_explain">
         <source>The configured database engine &lt;code&gt;%s&lt;/code&gt; is not available on your server. Please install it (recommended) or configure a different database engine in the &lt;code&gt;config/config.yaml&lt;/code&gt; file.</source>
+        <target>構成したデータベースエンジン&lt;code&gt;%s&lt;/code&gt;はサーバーで利用できません。インストールする(ことを推奨)するか、&lt;code&gt;config/config.yaml&lt;/code&gt;ファイルで異なるデータベースエンジンを構成してください。</target>
       </trans-unit>
       <trans-unit id="82" resname="engine_mismatch">
         <source>Invalid combination of database engine and collation!</source>
@@ -329,6 +331,7 @@
       </trans-unit>
       <trans-unit id="83" resname="engine_mismatch_explain">
         <source>The configured database engine &lt;code&gt;%s&lt;/code&gt; does not support utf8mb4. Please use InnoDB instead (recommended) or configure a different character set and collation in the &lt;code&gt;config/config.yaml&lt;/code&gt; file.</source>
+        <target>構成したデータベースエンジン&lt;code&gt;%s&lt;/code&gt;はutf8mb4をサポートしていません。代わりにInnoDBを使用する(ことを推奨)か、&lt;code&gt;config/config.yaml&lt;/code&gt;ファイルで異なる文字セットと照合順序を構成してください。</target>
       </trans-unit>
       <trans-unit id="84" resname="innodb_large_prefix">
         <source>The innodb_large_prefix option is not enabled!</source>
@@ -336,6 +339,7 @@
       </trans-unit>
       <trans-unit id="85" resname="innodb_large_prefix_explain">
         <source>The &lt;code&gt;innodb_large_prefix&lt;/code&gt; option is not enabled on your server. Please enable it (recommended) or configure a different character set and collation in the &lt;code&gt;config/config.yaml&lt;/code&gt; file.</source>
+        <target>&lt;code&gt;innodb_large_prefix&lt;/code&gt;オプションがサーバーで有効ではありません。有効にする(ことを推奨)するか、&lt;code&gt;config/config.yaml&lt;/code&gt;ファイルで異なる文字セットと照合順序を構成してください。</target>
       </trans-unit>
       <trans-unit id="86" resname="innodb_additional">
         <source>InnoDB is not configured properly!</source>
@@ -355,6 +359,7 @@
       </trans-unit>
       <trans-unit id="90" resname="strict_sql_mode_explain">
         <source>Running MySQL in non-strict mode can cause corrupt or truncated data. Please enable the strict mode either in your &lt;code&gt;my.cnf&lt;/code&gt; file or configure the connection options in the &lt;code&gt;config/config.yaml&lt;/code&gt; file as follows:</source>
+        <target>MySQLをstrictモードで動作させないとデータの破損や切り捨てを起こす恐れがあります。strictモードを&lt;code&gt;my.cnf&lt;/code&gt;ファイル、または&lt;code&gt;config/config.yaml&lt;/code&gt;ファイルで接続オプションを次のように構成して有効にしてください:</target>
       </trans-unit>
     </body>
   </file>
